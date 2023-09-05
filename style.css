@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+p{
+    color: #4d4d4d;
+}
+
+
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-top: 20vh;
+}
+
+ .content{
+    text-align: center;
+    margin: 20px;
+    line-height: 40px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+ a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    color: #4d4d4d; 
+    margin-right: 20px;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+
+.content .links i{
+    margin-right: 10px;
+}
+
+.content .links :hover{
+    background-color: black;
+    color: white;
+}
+
+.section{
+    margin-top: 60px;
+    text-align: start;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+a.more:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.menu{
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 55%;
+    color: white;
+    position: relative;
+}
+
+
+.hover-links{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 10%;
+    display: none;
+}
+
+.hover-links a{
+    border: none;
+}
+
+.hover-links i{
+    margin-right: 10px;
+}
+
+.hover-links :hover{
+    background-color: black;
+    color: white;
+}
+
+.cross{
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 55%;
+    color: white;
+    display: none;
+}
+
+
+@media (max-width:320px) {
+    .content{
+        width: 320px;
+    }
+}

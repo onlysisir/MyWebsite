@@ -27,6 +27,7 @@ margin-top: 10vh;
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 
 .image-container{
